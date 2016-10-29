@@ -1,0 +1,85 @@
+header {
+	background-color: #FF7F50;
+	color: #F8F8FF;
+	text-align:center;
+}
+
+body {
+    background-image: url("images/background_img.jpg");
+}
+
+.gameText {
+	background-color: #F5F5DC;
+	color:green;
+	float:left;
+}
+
+.pointDisplay{
+	float:left;
+	background-color:#7FFFD4;
+	
+}
+
+
+
+#redGem {
+	background-image:url("images/red.png");
+    border: none;
+    height:100px;
+    width:75px;
+    background-repeat: no-repeat;
+    background-color:white;
+    background-position: center;
+
+
+}
+
+#blueGem {
+	background-image:url("images/blue.png");
+	height:100px;
+	width:75px;
+	background-repeat: no-repeat;
+    background-color:white;
+    background-position: center;
+}
+
+#yellowGem{
+	background-image:url("images/yellow.png");
+	height:100px;
+	width:75px;
+	background-repeat: no-repeat;
+    background-color:white;
+    background-position: center;
+}
+
+#greenGem {
+	background-image:url("images/green.png");
+	height:100px;
+	width:75px;
+	background-repeat: no-repeat;
+    background-color:white;
+    background-position: center;
+
+}
+
+#winLoss {
+	float:left;
+	background-color:#00FFFF;
+	height:50px;
+	width:250px;
+
+}
+
+#scoreText{
+	float:left;
+	height:50px;
+	width:250px;
+	background-color:green;
+}
+
+#scoreDisplay{
+	float:left;
+	height:100px;
+	width:250px;
+	background-color:green;
+}
